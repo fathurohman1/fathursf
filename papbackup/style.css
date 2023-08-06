@@ -8,7 +8,7 @@
 --gaya-font3: 'Caveat', cursive;
 }
 body {overflow:hidden;background:#000;font-family:var(--gaya-font); margin: 0;}
-body::before{content:"\00A9  Fathur | tung";color:white;opacity:.5;font-size:10px;position:fixed;bottom:25px;right:25px;z-index:150}
+body::before{content:"\00A9  Rayys | feelthisray";color:white;opacity:.5;font-size:10px;position:fixed;bottom:25px;right:25px;z-index:150}
 @keyframes jj{0%  {transform: scale(1.2);} 50% {transform: scale(1.5);} 100% {transform: scale(1);}}
 @keyframes rto{from {transform:scale(1);} to {transform:scale(1.1);}}
 #counter{position:fixed;color:white;font-size:11px;top:20px;left:20px;z-index:999}
@@ -17,12 +17,6 @@ section {position:relative;z-index:99;padding: 0;height: 100vh;display: flex; fl
 section {background:#000;background-image: var(--bg);background-attachment: fixed;background-position: center;background-repeat: no-repeat;background-size: cover;}
 section.first{border-top:0 solid #fff}
 section.first > img{opacity:0}
-section:nth-child(even) {color:white}
-section:nth-child(odd) {color:white}
-section > :first-child {margin-top:150px}
-
-section.two{border-top:0 solid #fff}
-section.two > img{opacity:0}
 section:nth-child(even) {color:white}
 section:nth-child(odd) {color:white}
 section > :first-child {margin-top:150px}
